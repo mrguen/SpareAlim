@@ -1,6 +1,6 @@
 # SpareAlim #
 ## An hybrid power supply, Arduino compatible, using spare parts left available during this shelter in place time. ##
-Coronalim is a poject to build the best lab power supply I can make with the spare parts I have while being “sheltered in place”, thanks to her majesty Coronavirus.
+Coronalim is a poject to build the best lab power supply possible using the spare parts while being “sheltered in place”, thanks to her majesty Coronavirus.
 
 ## "Base brick" ##
 I stored for quite a long time a nice LF ferrite transformer. It has these outputs
