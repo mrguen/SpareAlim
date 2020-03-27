@@ -5,7 +5,7 @@ Coronalim is a poject to build the best lab power supply possible using the spar
 ## "Base brick" ##
 I stored for quite a long time a nice LF ferrite transformer. It has these outputs
 
-https://github.com/mrguen/SpareAlim/blob/master/images/Transformer.jpg
+![Alt Text](https://github.com/mrguen/SpareAlim/blob/master/images/Transformer.jpg)
 
 * power 13,5V – 0 - 13,5V
 * power 10V – 0 – 10V
