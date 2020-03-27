@@ -1,6 +1,6 @@
 # SpareAlim #
 ## An hybrid power supply, Arduino compatible, using spare parts left available during this shelter in place time. ##
-Coronalim is a poject to build the best lab power supply possible using the spare parts while being ìsheltered in placeî, thanks to her majesty Coronavirus.
+SpareAlim is a poject to build the best lab power supply possible using the spare parts while being ‚Äúsheltered in place‚Äù, thanks to her majesty Coronavirus.
 
 ## "Base brick" ##
 I stored for quite a long time a nice LF ferrite transformer. 
@@ -9,10 +9,10 @@ I stored for quite a long time a nice LF ferrite transformer.
 
 It has these outputs:
 
-* power 13,5V ñ 0 - 13,5V
-* power 10V ñ 0 ñ 10V
+* power 13,5V ‚Äì 0 - 13,5V
+* power 10V ‚Äì 0 ‚Äì 10V
 * aux 0 - 8,5V
-* aux 14V ñ 0 ñ 14V
+* aux 14V ‚Äì 0 ‚Äì 14V
 
 
 I don't remember the power rating. Given the size of the transformer it must be around 150W.
@@ -23,8 +23,8 @@ Given this I would like to provide has high voltage as I can, symmetrical power 
  
 Now all this sounds incoherent. I would like low noise for sensitive applications like audio amplifiers but I don't want to waste 100W in heatsinks etc... it since I have many outputs, I think I will make an hybrid power supply, that is
 
-* One symmetrical output. Using the 13,5v ñ 0 ñ 13,5V It could produce a variable dual rail using LDO (low noise) regulators up to +/- 12V. Since this power will be low noise I would also like to use it as single supply when needed.
-* One single output. Using the 10V ñ 0 ñ 10V. But I think I might need more than 20V. So for this one I consider using a sepic circuit to produce any voltages between 0 and let say 48V. This one will be quite noisy but will probably be usefull in many situations.
+* One symmetrical output. Using the 13,5v ‚Äì 0 ‚Äì 13,5V It could produce a variable dual rail using LDO (low noise) regulators up to +/- 12V. Since this power will be low noise I would also like to use it as single supply when needed.
+* One single output. Using the 10V ‚Äì 0 ‚Äì 10V. But I think I might need more than 20V. So for this one I consider using a sepic circuit to produce any voltages between 0 and let say 48V. This one will be quite noisy but will probably be usefull in many situations.
 * One fixed 5V low power using a small SMPS chip
 * One fixed 3,3V low power  using a small SMPS chip
 
@@ -37,7 +37,7 @@ The human interface will feature a color TFT a couple of buttons ad a selector.
 ## Some of the parts I have ##
 * bridges, diodes, inductors, low ESR caps 
 * small transformers
-* a couple of DC/DC chips: CS5173 that can do SEPIC but up to 1,5A ìonlyî, buck chips AP3502 and AOZ1280 and others but not for SEPIC and or not powerful enough. Or we could use the STM32F103 PWM or another oscillator circuit.
+* a couple of DC/DC chips: CS5173 that can do SEPIC but up to 1,5A ‚Äúonly‚Äù, buck chips AP3502 and AOZ1280 and others but not for SEPIC and or not powerful enough. Or we could use the STM32F103 PWM or another oscillator circuit.
 * INA226/INA233 current measurement chips, 
 * standard linear regulators (I consider using LD1117 types), standard op amps MOSFET (N, P), triacs
 * TFT screens, one selector, STM32F103 chips (a bluepill board), or Atmega328/644/1284 (Nano, Narrow) etc.
