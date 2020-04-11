@@ -1,0 +1,17 @@
+Alimentation variable symmmétrique  12V
+
+1) Arriver à contrôler la tension par MCU (ADC, digipot etc)
+
+2) On pourrait ajouter limiteur de courant comme figure 42 de la feuille de données TI LM317
+
+3) On pourrait aussi baisser la référence de tension à la façon de la figure 40.
+Ou bien https://www.electronicsforu.com/electronics-projects/bipolar-power-supply-adjustable-regulators
+
+Pour le pilotage de la tension
+
+https://arduino.stackexchange.com/questions/10559/microcontroller-controlled-power-supply/12423
+https://www.edn.com/control-an-lm317t-with-a-pwm-signal/
+
+Pour faire une tension à courant constant 
+
+https://www.maximintegrated.com/en/design/technical-documents/app-notes/3/3869.html
