@@ -42,6 +42,9 @@ The human interface will feature a color TFT a couple of buttons ad a selector.
 * standard linear regulators (I consider using LD1117 types), standard op amps MOSFET (N, P), triacs
 * TFT screens, one selector, STM32F103 chips (a bluepill board), or Atmega328/644/1284 (Nano, Narrow) etc.
 
+## Conceptual view ##
+
+https://github.com/mrguen/SpareAlim/blob/master/images/SpareAlim_bloc_view_v0.0.5.png?raw=true
 
 ## Some basic circuits ##
 
