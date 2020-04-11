@@ -44,7 +44,8 @@ The human interface will feature a color TFT a couple of buttons ad a selector.
 
 ## Conceptual view ##
 
-https://github.com/mrguen/SpareAlim/blob/master/images/SpareAlim_bloc_view_v0.0.5.png?raw=true
+![Alt Text](https://github.com/mrguen/SpareAlim/blob/master/images/SpareAlim_bloc_view_v0.0.5.png)
+
 
 ## Some basic circuits ##
 
